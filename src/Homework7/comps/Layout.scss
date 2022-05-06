@@ -1,0 +1,18 @@
+ul{
+    display: flex;justify-content: space-between;
+}
+.nav{
+    .active{
+        background-color: crimson;
+        color: white !important;
+    }
+    border-bottom: 5px solid aqua;
+    border-top: 5px solid aqua;
+    .nav-link{
+        font-weight: 600;
+    }
+}
+footer{
+    background-color:lime;
+    text-align: center;
+}

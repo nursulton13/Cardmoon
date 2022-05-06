@@ -1,0 +1,188 @@
+.login {
+  -webkit-transition: 0.8s all;
+  transition: 0.8s all;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #dc3545;
+  color: white;
+}
+
+.login input {
+  margin: 15px;
+}
+
+.login button {
+  background-color: navy;
+  padding: 10px 30px;
+  font-weight: 600;
+  -webkit-transition: 0.8s all;
+  transition: 0.8s all;
+  border: 2px solid transparent;
+}
+
+.login button:hover {
+  background-color: #fff;
+  color: navy;
+  border: 2px solid navy;
+}
+
+.addContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.addContact .contactDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addContact .contactDesc .contactImg {
+  overflow: hidden;
+}
+
+.addContact .contactDesc .contactImg input {
+  outline: none;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  width: 250px;
+  height: 250px;
+  padding: 115px 25px;
+  border-radius: 50%;
+  border: 2px solid aqua;
+}
+
+.addContact .contactDesc .contactImg input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.addContact .contactDesc .contactNF {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.addContact button {
+  background-color: #dc3545 !important;
+  color: #fff;
+  font-weight: 600;
+}
+
+.addContact button:hover {
+  background-color: #fff !important;
+  color: #dc3545;
+}
+
+.contactCarts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contactCarts .cart {
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+  width: 23%;
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.contactCarts .cart .cartImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.contactCarts .cart .cartImg img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid aqua;
+  border-radius: 50%;
+  padding: 1px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contactCarts .cart .cartName,
+.contactCarts .cart .cartNumber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactCarts .cart .contactIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.contactCarts .cart .contactIcon .likeContact img,
+.contactCarts .cart .contactIcon .deleteContact img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+
+.contactCarts .cart:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 0 5px #dadada;
+          box-shadow: 0 0 0 5px #dadada;
+}
+/*# sourceMappingURL=pages.css.map */

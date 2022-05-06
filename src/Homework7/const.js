@@ -1,0 +1,1 @@
+export const TOKEN = "HP_core_I3";

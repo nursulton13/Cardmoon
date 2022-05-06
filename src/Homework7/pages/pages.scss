@@ -1,0 +1,121 @@
+// Contacts start
+.login{
+  transition: 0.8s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  border:1px solid grey;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #dc3545;
+  color: white;
+  input{
+    margin :15px;
+  }
+  button{
+    background-color:navy;
+    padding: 10px 30px;
+    font-weight: 600;
+    transition: 0.8s all;
+    border: 2px solid transparent;
+  }
+  button:hover{
+    background-color: #fff;
+    color: navy;
+    border: 2px solid navy;
+  }
+}
+.addContact {
+  display: flex;
+  flex-direction: column;
+  .contactDesc {
+    display: flex;
+    align-items: center;
+    .contactImg {
+      overflow: hidden;
+      input {
+        outline: none;
+        flex: 2;
+        width: 250px;
+        height: 250px;
+        padding: 115px 25px;
+        border-radius: 50%;
+        border: 2px solid aqua;
+      }
+      input:focus {
+        box-shadow: none;
+      }
+    }
+    .contactNF {
+      flex: 2;
+    }
+  }
+  button {
+    background-color: #dc3545 !important;
+    color: #fff;
+    font-weight: 600;
+  }
+  button:hover {
+    background-color: #fff !important;
+    color: #dc3545;
+  }
+}
+.contactCarts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .cart {
+    transition: 0.8s ease;
+    width: 23%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+    .cartImg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      img {
+        width: 100px;
+        height: 100px;
+        border: 1px solid aqua;
+        border-radius: 50%;
+        padding: 1px;
+        object-fit: cover;
+      }
+    }
+    .cartName,
+    .cartNumber {
+      display: flex;
+      justify-content: center;
+    }
+    .contactIcon {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 15px;
+      .likeContact,
+      .deleteContact {
+        img {
+          cursor: pointer;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+          transition: 0.8s ease;
+        }
+      }
+    }
+  }
+  .cart:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 5px rgb(218, 218, 218);
+  }
+}
+// Contacts end

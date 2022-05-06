@@ -1,0 +1,28 @@
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav {
+  border-bottom: 5px solid aqua;
+  border-top: 5px solid aqua;
+}
+
+.nav .active {
+  background-color: crimson;
+  color: white !important;
+}
+
+.nav .nav-link {
+  font-weight: 600;
+}
+
+footer {
+  background-color: lime;
+  text-align: center;
+}
+/*# sourceMappingURL=Layout.css.map */
